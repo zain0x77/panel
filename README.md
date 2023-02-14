@@ -1,2 +1,0 @@
-# panel
-Panel DDoS Powerful
