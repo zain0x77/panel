@@ -28,15 +28,9 @@ yum install nodejs -y
 yum install npm -y
 
 Debain, Ubuntu:
-sudo apt-get install git -y
-sudo apt-get install golang -y
-sudo apt-get install perl -y
-sudo apt-get install python3 -y
-sudo apt-get install python2 -y
-sudo apt-get install python3-pip -y
-sudo apt-get install nodejs -y
-sudo apt-get install npm -y
-
+```
+bash <(curl -Ls https://raw.githubusercontent.com/ht4g/panel/main/panel.sh)
+```
 How to use: 
 - Recommended in shell of google, azure,...
 - Using vps with high speed will be stronger
