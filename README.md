@@ -28,9 +28,9 @@ yum install nodejs -y
 yum install npm -y
 
 Debain, Ubuntu:
-```
+
 bash <(curl -Ls https://raw.githubusercontent.com/ht4g/panel/main/panel.sh)
-```
+
 How to use: 
 - Recommended in shell of google, azure,...
 - Using vps with high speed will be stronger
