@@ -24,7 +24,8 @@ time.sleep(1)
 os.system("cls" if os.name == "nt" else "clear")
 print(f"Welcome To Server | User: {uname}")
 print("please wait...")
-
+ip= requests.get('https://api.ipify.org').text.strip()
+online= random.randint(1, 153)
 
 ###Help Gif###
 def hlp(screen):
@@ -77,15 +78,15 @@ def mip():
 def account():
     print(f"""\x1b[0mID: \x1b[38;2;255;0;255mUnknown\x1b[0m
 \x1b[0mUsername: \x1b[38;2;255;0;255m{uname}
-\x1b[0mAdmin: false
-\x1b[0mReseller: false
-\x1b[0mVIP: false
+\x1b[0mAdmin: true
+\x1b[0mReseller: true
+\x1b[0mVIP: true
 \x1b[0mBypass Blacklist: true
 
-\x1b[0mExpiry: \x1b[38;2;255;0;255m30\x1b[0m Day(s)
+\x1b[0mExpiry: \x1b[38;2;255;0;255m300\x1b[0m Day(s)
 \x1b[0mMaxTime: \x1b[38;2;255;0;255m99999 \x1b[0mSeconds
 \x1b[0mCooldown: \x1b[38;2;255;0;255m0\x1b[0m Seconds
-\x1b[0mConcurrents: \x1b[38;2;255;0;255m1\x1b[0m
+\x1b[0mConcurrents: \x1b[38;2;255;0;255m20\x1b[0m
 \x1b[0mMax Sessions: \x1b[38;2;255;0;255m4\x1b[0m
 \x1b[0mMy Attacks Sent: \x1b[38;2;255;0;255mUnknow\x1b[0m
 \x1b[0mCurrent IPv4: \x1b[38;2;255;0;255m{ip}\x1b[0m""")
