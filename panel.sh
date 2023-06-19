@@ -6,7 +6,7 @@ sudo apt-get install python2 -y
 sudo apt-get install python3-pip -y
 sudo apt-get install nodejs -y
 sudo apt-get install npm -y
-git clone https://github.com/zain0x77/panel
+git clone https://github.com/zain0x77/panelxx
 cd panel
 npm i requests
 npm i https-proxy-agent
