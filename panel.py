@@ -24,9 +24,6 @@ time.sleep(1)
 os.system("cls" if os.name == "nt" else "clear")
 print(f"Welcome To Server | User: {uname}")
 print("please wait...")
-print("Vui lòng liên hệ zalo: 0965781640 để lấy TK và MK")
-ip= requests.get('https://api.ipify.org').text.strip()
-online= random.randint(1, 153)
 
 
 ###Help Gif###
